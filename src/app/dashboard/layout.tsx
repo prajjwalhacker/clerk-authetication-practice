@@ -1,8 +1,12 @@
+
 import React from 'react'
+import Header from './_components/Header'
 
 const layout = () => {
   return (
-    <div>layout</div>
+    <div>
+      <Header/>  
+    </div>
   )
 }
 
