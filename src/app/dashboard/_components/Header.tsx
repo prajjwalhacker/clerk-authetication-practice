@@ -8,16 +8,16 @@ const Header = () => {
     <div className='flex p-4 justify-between items-center bg-secondary'>
       <UserButton/>
       <ul className='flex justify-between gap-4'>
-        <li className='hover:text-primary hover:font-bold transition-all'>
+        <li className='cursor-pointer hover:text-primary hover:font-bold transition-all'>
           Dashboard
         </li>
-        <li className='hover:text-primary hover:font-bold transition-all'>
+        <li className='cursor-pointer hover:text-primary hover:font-bold transition-all'>
           Questions
         </li> 
-        <li className='hover:text-primary hover:font-bold transition-all'>
+        <li className='cursor-pointer hover:text-primary hover:font-bold transition-all'>
           Content
         </li>
-        <li className='hover:text-primary hover:font-bold transition-all'>
+        <li className='cursor-pointer hover:text-primary hover:font-bold transition-all'>
           How it works
         </li>
       </ul>
